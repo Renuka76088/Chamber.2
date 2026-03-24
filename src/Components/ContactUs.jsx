@@ -22,7 +22,7 @@ const ContactUs = () => {
             transition={{ delay: 0.1 }}
             className="text-5xl font-black text-slate-900 mt-3"
           >
-            Connect with <span className="text-blue-600">Pareekh Chamber</span>
+            Connect with <span className="text-blue-600">PAREKH CHAMBER OF TEXTILE</span>
           </motion.h2>
         </div>
 
@@ -96,7 +96,7 @@ const ContactUs = () => {
     {/* Decorative Overlay */}
     <div className="absolute bottom-6 right-6 bg-slate-900/90 backdrop-blur-sm p-4 rounded-3xl text-white hidden md:block border border-white/10 z-10">
       <p className="text-[10px] uppercase tracking-widest font-bold opacity-60 mb-1">Our Headquarters</p>
-      <p className="text-sm font-medium">Pareekh Textile Chamber</p>
+      <p className="text-sm font-medium">Parekh Textile Chamber</p>
     </div>
   </div>
 

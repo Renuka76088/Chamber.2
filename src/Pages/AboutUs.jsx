@@ -59,7 +59,7 @@ const AboutUs = () => {
           transition={{ duration: 1, delay: 0.6 }}
           className="text-gray-500 mt-10 text-xl max-w-3xl leading-relaxed"
         >
-          Since 2001, the Pareekh Textile Chamber of Commerce has fostered innovation, seamless trade, and sustainable growth across India's vibrant textile ecosystem.
+          Since 2001, the Parekh Textile Chamber of Commerce has fostered innovation, seamless trade, and sustainable growth across India's vibrant textile ecosystem.
         </motion.p>
 
         {/* Integrated Quick-Fact Bar (Creative Element) */}

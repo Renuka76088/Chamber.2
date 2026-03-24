@@ -72,7 +72,7 @@ const TextileAssociatesPage = () => {
     
     {/* Base Map Image */}
     <img 
-        src="https://img.freepik.com/premium-vector/india-map-futuristic-line-vector-illustration_312502-74.jpg?ga=GA1.1.124606815.1772781809&semt=ais_hybrid&w=740&q=80" // Aap apni uploaded image ka URL yahan dal sakte hain
+        src="https://media.istockphoto.com/id/2207896010/vector/detailed-map-of-india-and-its-regions.jpg?s=612x612&w=0&k=20&c=mSgsPYiGPs1AOpqT3xrj_-15oYuex4O6ImDDQt7KaZU=" // Aap apni uploaded image ka URL yahan dal sakte hain
         alt="India Textile Network"
         className="w-full h-auto opacity-90"
     />

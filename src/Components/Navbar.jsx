@@ -76,7 +76,7 @@ const Navbar = () => {
       <nav className="fixed top-0 w-full z-[70] bg-white/90 backdrop-blur-xl border-b border-slate-100 shadow-sm">
         <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
           <Link to="/" className="text-2xl font-black tracking-tighter text-slate-950 flex items-center gap-2">
-            PAREEKH<span className="text-blue-600 font-semibold italic">CHAMBER</span>
+            PAREKH CHAMBER<span className="text-blue-600 font-semibold italic"> OF TEXTILE</span>
           </Link>
 
           {/* Desktop Navigation */}

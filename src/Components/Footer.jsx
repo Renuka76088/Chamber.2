@@ -19,7 +19,7 @@ const Footer = () => {
           {/* Brand Identity */}
           <div className="lg:col-span-5 space-y-6">
             <div className="text-3xl font-black tracking-tighter text-white">
-              PAREEKH<span className="text-blue-500">CHAMBER</span>
+              Parekh<span className="text-blue-500">CHAMBER</span>
             </div>
             <p className="text-slate-400 max-w-sm leading-relaxed">
               Empowering the textile industry of Gujarat since 2001. Weaving connections, fostering innovation, and driving global trade excellence.
@@ -100,7 +100,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />
-                info@pareekhchamber.com
+                info@Parekhchamber.com
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ const Footer = () => {
 
         {/* Bottom Section: Copyright */}
         <div className="pt-10 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-slate-500">
-          <p>© {currentYear} Pareekh Textile Chamber of Commerce. All rights reserved.</p>
+          <p>© {currentYear} Parekh Textile Chamber of Commerce. All rights reserved.</p>
           <div className="flex gap-8">
             <a href="#" className="hover:text-white transition-colors">Security</a>
             <a href="#" className="hover:text-white transition-colors">Sitemap</a>

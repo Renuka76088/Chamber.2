@@ -21,12 +21,12 @@ const Banner = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <span className="text-blue-600 font-semibold tracking-widest uppercase text-sm mb-4 block">
-            Crafting Global Success
+           "A Collective Vision for Global Excellence."
           </span>
           <h1 className="text-6xl md:text-7xl font-extrabold leading-tight text-slate-900 tracking-tighter">
-            PAREEKH <br />
+            PAREKH <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-500">
-              TEXTILE CHAMBER
+              CHAMBER OF TEXTILE
             </span>
           </h1>
         </motion.div>
@@ -57,10 +57,7 @@ const Banner = () => {
             </button>
           </div>
           
-          <div className="relative w-full max-w-xl">
-             <input type="text" placeholder="Search for circulars, tenders, associates..." className="w-full pl-14 pr-6 py-4 rounded-full bg-slate-50 border border-slate-100 focus:border-blue-300 focus:ring-2 focus:ring-blue-100 transition" />
-             <Search className="absolute left-6 top-1/2 -translate-y-1/2 text-slate-400" size={20} />
-          </div>
+         
         </motion.div>
       </div>
 

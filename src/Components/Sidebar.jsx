@@ -2,7 +2,7 @@ export default function Sidebar() {
   return (
     <>
       <h1 id="colorlib-logo">
-        <a href="/">Pareekh Chamber</a>
+        <a href="/">PAREKH CHAMBER OF TEXTILE</a>
       </h1>
 
       <nav id="colorlib-main-menu">
