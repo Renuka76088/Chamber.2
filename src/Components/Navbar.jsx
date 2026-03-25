@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronDown, Menu, X, MessageSquare, Send, Bot, ChevronRight, Sparkles } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../assets/logo.png'
 
 const dropdownItems = [
   { name: 'Chamber Services', path: '/our-chamber-service' },
@@ -73,45 +74,79 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-[70] bg-white/90 backdrop-blur-xl border-b border-slate-100 shadow-sm">
-        <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-          <Link to="/" className="text-2xl font-black tracking-tighter text-slate-950 flex items-center gap-2">
-            PAREKH CHAMBER<span className="text-blue-600 font-semibold italic"> OF TEXTILE</span>
-          </Link>
+    <nav className="fixed top-0 w-full z-[70] bg-white/90 backdrop-blur-xl border-b border-slate-100 shadow-sm">
+  <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+    
+    {/* --- LOGO SECTION START --- */}
+    <Link to="/" className="flex items-center group h-full">
+      <img 
+        src={logo} 
+        alt="Logo" 
+        className="h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+        /* h-12 se logo navbar ke andar balanced dikhega, 
+           object-contain se wo katega nahi */
+      />
+    </Link>
+    {/* --- LOGO SECTION END --- */}
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex space-x-8 items-center font-semibold text-slate-600">
-            {pagesList.map((page) => (
-              page.hasDropdown ? (
-                <div key={page.name} className="relative group" onMouseEnter={() => setIsPagesOpen(true)} onMouseLeave={() => setIsPagesOpen(false)}>
-                  <button className="flex items-center gap-1 py-4 group-hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">
-                    {page.name} <ChevronDown size={14} className={`transition-transform duration-300 ${isPagesOpen ? 'rotate-180' : ''}`} />
-                  </button>
-                  <AnimatePresence>
-                    {isPagesOpen && (
-                      <motion.div initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: 10 }}
-                        className="absolute top-[80%] -right-20 w-[600px] bg-white shadow-[0_20px_40px_rgba(0,0,0,0.1)] rounded-[2rem] p-6 grid grid-cols-2 gap-2 border border-slate-50">
-                        {dropdownItems.map((item) => (
-                          <Link key={item.name} to={item.path} className="px-5 py-3 text-[13px] hover:bg-blue-50 hover:text-blue-700 rounded-2xl transition-all flex items-center justify-between group/item">
-                            {item.name} <ChevronRight size={14} className="opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
-                          </Link>
-                        ))}
-                      </motion.div>
-                    )}
-                  </AnimatePresence>
-                </div>
-              ) : (
-                <Link key={page.name} to={page.path} className="hover:text-blue-600 transition-colors uppercase text-xs tracking-widest">{page.name}</Link>
-              )
-            ))}
-            <button className="bg-slate-950 text-white px-6 py-2.5 rounded-full text-xs font-bold hover:bg-blue-700 transition-all shadow-lg shadow-slate-200">PORTAL LOGIN</button>
+    {/* Desktop Navigation */}
+    <div className="hidden md:flex space-x-8 items-center font-semibold text-slate-600">
+      {pagesList.map((page) => (
+        page.hasDropdown ? (
+          <div 
+            key={page.name} 
+            className="relative group" 
+            onMouseEnter={() => setIsPagesOpen(true)} 
+            onMouseLeave={() => setIsPagesOpen(false)}
+          >
+            <button className="flex items-center gap-1 py-4 group-hover:text-blue-600 transition-colors uppercase text-[11px] tracking-widest">
+              {page.name} 
+              <ChevronDown size={14} className={`transition-transform duration-300 ${isPagesOpen ? 'rotate-180' : ''}`} />
+            </button>
+            
+            <AnimatePresence>
+              {isPagesOpen && (
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }} 
+                  animate={{ opacity: 1, y: 0 }} 
+                  exit={{ opacity: 0, y: 10 }}
+                  className="absolute top-[90%] left-1/2 -translate-x-1/2 w-[500px] bg-white shadow-[0_20px_40px_rgba(0,0,0,0.12)] rounded-[1.5rem] p-4 grid grid-cols-2 gap-1 border border-slate-50"
+                >
+                  {dropdownItems.map((item) => (
+                    <Link 
+                      key={item.name} 
+                      to={item.path} 
+                      className="px-4 py-3 text-[13px] hover:bg-blue-50 hover:text-blue-700 rounded-xl transition-all flex items-center justify-between group/item"
+                    >
+                      {item.name} 
+                      <ChevronRight size={14} className="opacity-0 group-hover/item:opacity-100 -translate-x-2 group-hover/item:translate-x-0 transition-all" />
+                    </Link>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
           </div>
+        ) : (
+          <Link 
+            key={page.name} 
+            to={page.path} 
+            className="hover:text-blue-600 transition-colors uppercase text-[11px] tracking-widest"
+          >
+            {page.name}
+          </Link>
+        )
+      ))}
+      <button className="bg-slate-950 text-white px-6 py-2.5 rounded-full text-[11px] font-bold hover:bg-blue-600 transition-all shadow-lg shadow-slate-200">
+        PORTAL LOGIN
+      </button>
+    </div>
 
-          <button className="md:hidden p-2 bg-slate-50 rounded-full" onClick={() => setIsMobileMenu(!isMobileMenu)}>
-            {isMobileMenu ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-      </nav>
+    {/* Mobile Toggle */}
+    <button className="md:hidden p-2 bg-slate-50 rounded-full" onClick={() => setIsMobileMenu(!isMobileMenu)}>
+      {isMobileMenu ? <X size={24} /> : <Menu size={24} />}
+    </button>
+  </div>
+</nav>
 
       {/* Mobile Menu Overlay */}
       <AnimatePresence>
