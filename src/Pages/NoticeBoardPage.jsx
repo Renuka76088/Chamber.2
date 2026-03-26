@@ -120,7 +120,7 @@ const NoticeBoardPage = () => {
               <h3 className="text-2xl font-bold text-white mb-2 flex items-center gap-3 justify-center md:justify-start">
                  <AlertTriangle className="text-amber-500" /> Important Alert?
               </h3>
-              <p className="text-gray-400 text-sm">Aapko koi official letter mila hai jo yahan list nahi hai? Turant verify karein.</p>
+              <p className="text-gray-400 text-sm">"Received an official letter not listed here? Verify it immediately to ensure authenticity and avoid any discrepancies."</p>
            </div>
            <button className="relative z-10 px-8 py-4 bg-blue-600 text-white rounded-2xl font-bold shadow-xl shadow-blue-500/20 hover:bg-blue-700 transition-all flex items-center gap-2">
               Verify Document <Hash size={18} />

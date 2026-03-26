@@ -8,8 +8,8 @@ const Banner = () => {
       {/* Background Animated Texture - This could be a subtly moving gradient */}
       <div className="absolute inset-0 z-0 opacity-10">
         <svg viewBox="0 0 100 100" preserveAspectRatio="none" className="w-full h-full">
-          <path d="M0,0 C25,30 75,70 100,100" stroke="#0F172A" strokeWidth="0.1" fill="none"/>
-          <path d="M0,20 C25,50 75,90 100,120" stroke="#0F172A" strokeWidth="0.1" fill="none"/>
+          {/* <path d="M0,0 C25,30 75,70 100,100" stroke="#0F172A" strokeWidth="0.1" fill="none"/>
+          <path d="M0,20 C25,50 75,90 100,120" stroke="#0F172A" strokeWidth="0.1" fill="none"/> */}
         </svg>
       </div>
 

@@ -20,6 +20,7 @@ import AppointmentPage from './Pages/AppointmentPage'
 import NoticeBoardPage from './Pages/NoticeBoardPage'
 import MediaGalleryPage from './Pages/MediaGalleryPage'
 import TextileAssociatesPage from './Pages/TextileAssociatesPage'
+import ScrollToTop from '../ScrollToTop.jsx'
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
   return (
     <>
 <BrowserRouter>
+<ScrollToTop />
 <Navbar/>
 <Routes>
 

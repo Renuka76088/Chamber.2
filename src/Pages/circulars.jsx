@@ -129,7 +129,7 @@ const CircularsPage = () => {
                 <Info size={24} className="text-blue-500" /> Subscription Support
               </h3>
               <p className="text-gray-400 text-sm leading-relaxed">
-                Kya aapko koi specific circular nahi mil raha? Aap hamare support desk ko email kar sakte hain ya office se in-person copy le sakte hain.
+              "Can't find a specific circular? You can email our support desk or collect a physical copy in person from our office."
               </p>
            </div>
            <a href="mailto:hemant.parekh2012@gmail.com" className="bg-blue-600 text-white px-8 py-4 rounded-2xl font-bold hover:bg-blue-700 transition-all shadow-xl shadow-blue-500/20 whitespace-nowrap">

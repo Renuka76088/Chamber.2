@@ -39,7 +39,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <p className="font-bold text-slate-800">Call Us</p>
-                    <p className="text-slate-600 text-sm">+91 98765 43210</p>
+                    <p className="text-slate-600 text-sm">+91 1111 1111</p>
                   </div>
                 </div>
 

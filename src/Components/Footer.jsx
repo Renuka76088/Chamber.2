@@ -4,6 +4,8 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from "react-icons/f
 // import { Send } from "react-icons/io5";
 import { MdLocationOn, MdPhone, MdEmail } from "react-icons/md";
 import { Mail, MapPin, Phone, Send } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/footerlogo.png'
 
 
 const Footer = () => {
@@ -14,46 +16,52 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto">
         
         {/* Upper Section: Brand & Newsletter */}
-        <div className="grid lg:grid-cols-12 gap-12 pb-16 border-b border-slate-800">
-          
-          {/* Brand Identity */}
-          <div className="lg:col-span-5 space-y-6">
-            <div className="text-3xl font-black tracking-tighter text-white">
-              Parekh<span className="text-blue-500">CHAMBER</span>
-            </div>
-            <p className="text-slate-400 max-w-sm leading-relaxed">
-              Empowering the textile industry of Gujarat since 2001. Weaving connections, fostering innovation, and driving global trade excellence.
-            </p>
-            <div className="flex gap-4">
-              {[FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn]
-.map((Icon, i) => (
-                <motion.a 
-                  key={i} href="#" 
-                  whileHover={{ y: -5, color: '#3b82f6' }}
-                  className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center transition-colors"
-                >
-                  <Icon size={18} />
-                </motion.a>
-              ))}
-            </div>
-          </div>
+    <div className="grid lg:grid-cols-12 gap-12 pb-16 border-b border-slate-800 items-start">
+  
+  {/* Brand Identity */}
+  <div className="lg:col-span-5 space-y-4"> {/* space-y-6 ko 4 kiya taaki gap kam ho */}
+    <Link to="/" className="inline-block"> {/* h-full hataya taaki container stretch na ho */}
+      <img 
+        src={logo} 
+        alt="Logo" 
+        className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
+        /* h-12 ko h-10 kiya for more compactness */
+      />
+    </Link>
+    
+    <p className="text-slate-400 max-w-sm leading-relaxed mt-2">
+      Empowering the textile industry of Gujarat since 2001. Weaving connections, fostering innovation, and driving global trade excellence.
+    </p>
+    
+    <div className="flex gap-4 pt-2">
+      {[FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn].map((Icon, i) => (
+        <motion.a 
+          key={i} href="#" 
+          whileHover={{ y: -5, color: '#3b82f6' }}
+          className="w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center transition-colors border border-slate-800"
+        >
+          <Icon size={18} />
+        </motion.a>
+      ))}
+    </div>
+  </div>
 
-          {/* Quick Newsletter */}
-          <div className="lg:col-span-7 bg-slate-900/50 p-8 rounded-[2.5rem] border border-slate-800">
-            <h4 className="text-xl font-bold text-white mb-2">Subscribe to our Circulars</h4>
-            <p className="text-sm text-slate-400 mb-6">Stay updated with the latest textile policies and trade enquiries.</p>
-            <div className="flex gap-2 bg-slate-950 p-2 rounded-2xl border border-slate-800">
-              <input 
-                type="email" 
-                placeholder="Enter your email" 
-                className="bg-transparent pl-4 flex-1 outline-none text-sm text-white" 
-              />
-              <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold text-sm transition-all flex items-center gap-2">
-                Join Now <Send size={16} />
-              </button>
-            </div>
-          </div>
-        </div>
+  {/* Quick Newsletter */}
+  <div className="lg:col-span-7 bg-slate-900/50 p-6 rounded-[2rem] border border-slate-800">
+    <h4 className="text-xl font-bold text-white mb-1">Subscribe to our Circulars</h4>
+    <p className="text-sm text-slate-400 mb-4">Stay updated with the latest textile policies and trade enquiries.</p>
+    <div className="flex flex-col sm:flex-row gap-2 bg-slate-950 p-1.5 rounded-2xl border border-slate-800">
+      <input 
+        type="email" 
+        placeholder="Enter your email" 
+        className="bg-transparent pl-4 py-2 flex-1 outline-none text-sm text-white" 
+      />
+      <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2.5 rounded-xl font-bold text-sm transition-all flex items-center justify-center gap-2">
+        Join Now <Send size={16} />
+      </button>
+    </div>
+  </div>
+</div>
 
         {/* Middle Section: Links Grid */}
         <div className="grid md:grid-cols-4 gap-12 py-16">
@@ -96,7 +104,7 @@ const Footer = () => {
               </p>
               <p className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />
-                +91 98765 43210
+                +91 1111 1111
               </p>
               <p className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500 shrink-0" />

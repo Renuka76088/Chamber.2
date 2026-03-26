@@ -106,7 +106,7 @@ const ContactUs = () => {
       <div className="p-3 bg-blue-50 text-blue-600 rounded-xl group-hover:bg-blue-600 group-hover:text-white transition-all"><Phone size={20} /></div>
       <div>
         <p className="text-[10px] font-bold text-slate-400 uppercase">Call Us</p>
-        <p className="text-sm font-bold text-slate-800">+91 98765 43210</p>
+        <p className="text-sm font-bold text-slate-800">+91 1111 1111 </p>
       </div>
     </div>
     <div className="bg-white p-6 rounded-[2rem] border border-slate-100 flex items-center gap-4 group hover:border-blue-200 transition-all">

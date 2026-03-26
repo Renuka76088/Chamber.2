@@ -137,7 +137,11 @@ const Navbar = () => {
         )
       ))}
       <button className="bg-slate-950 text-white px-6 py-2.5 rounded-full text-[11px] font-bold hover:bg-blue-600 transition-all shadow-lg shadow-slate-200">
-        PORTAL LOGIN
+       
+       <Link to='/trade-enquiry-e-form-'>
+        Get a quote  
+       </Link>
+     
       </button>
     </div>
 

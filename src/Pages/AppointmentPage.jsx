@@ -29,8 +29,7 @@ const AppointmentPage = () => {
             Book an <span className="text-blue-500">Appointment</span>
           </h1>
           <p className="text-gray-400 text-lg opacity-80 max-w-2xl mx-auto">
-            Hamare experts ke saath judne ke liye apna slot book karein. 
-            Personalized guidance aur textile business solutions ke liye hum haazir hain.
+          "Book your slot to connect with our industry experts. We are here to provide personalized guidance and strategic textile business solutions."
           </p>
         </div>
       </section>
@@ -46,8 +45,8 @@ const AppointmentPage = () => {
               <div>
                 <h3 className="text-2xl font-bold mb-4 tracking-tight">Visit Our Office</h3>
                 <p className="text-blue-100 text-sm leading-relaxed opacity-80">
-                  Indore, Madhya Pradesh <br />
-                  Chamber of Textile Insights
+                  BENGALURU, KA<br />
+                 
                 </p>
               </div>
 
@@ -71,7 +70,7 @@ const AppointmentPage = () => {
               <div className="pt-10">
                  <div className="p-6 bg-blue-700 rounded-3xl border border-blue-500/30">
                     <p className="text-xs italic leading-relaxed opacity-90">
-                      "Aapki growth hamari priority hai. Har appointment ko hum poora waqt aur dhyan dete hain."
+                    "Your growth is our priority. We dedicate full time and undivided attention to every appointment to ensure your business goals are met."
                     </p>
                  </div>
               </div>

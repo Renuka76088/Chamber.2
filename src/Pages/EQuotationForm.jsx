@@ -32,7 +32,7 @@ const EQuotationForm = () => {
                 E-Quotation <span className="text-blue-500">Portal</span>
               </h1>
               <p className="text-gray-400 text-lg max-w-xl mx-auto opacity-90">
-                Aapke textile requirements ke liye best rates aur estimates turant prapt karein.
+              "Get the best rates and instant estimates for all your textile requirements. Request a quote today for premium quality at competitive prices."
               </p>
             </div>
             
@@ -112,7 +112,7 @@ const EQuotationForm = () => {
               <div className="bg-blue-50 p-8 rounded-[2.5rem] border border-blue-100 flex items-start gap-4">
                 <div className="mt-1"><Info className="text-blue-600" size={20} /></div>
                 <p className="text-sm text-blue-900 leading-relaxed">
-                  <strong>Note:</strong> Yeh ek primary quotation request hai. Aapki details submit hone ke baad, humara executive 24-48 ghanto mein accurate pricing aur terms ke saath aapse sampark karega.
+                  <strong>Note:</strong> "This is a primary quotation request. Once your details are submitted, our executive will contact you within 24-48 hours with accurate pricing and terms."
                 </p>
               </div>
 
