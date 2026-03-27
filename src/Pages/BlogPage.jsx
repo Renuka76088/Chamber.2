@@ -5,7 +5,7 @@ const BlogPage = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "The Legacy of HC Pareek in Textile Commerce",
+      title: "The Legacy of HC Parekh in Textile Commerce",
       excerpt: "Exploring the visionary leadership and contributions to the Chamber of Commerce and the textile growth in the region.",
       date: "March 24, 2026",
       category: "Leadership"
@@ -97,21 +97,6 @@ const BlogPage = () => {
         </div>
       </main>
 
-      {/* --- Footer --- */}
-      <footer className="bg-white border-t py-12 px-6">
-        <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-center md:text-left">
-            <h4 className="font-bold text-xl text-blue-800">HC Pareek</h4>
-            <p className="text-gray-500 text-sm">Textile & Chamber of Commerce Industry Updates</p>
-          </div>
-          <div className="flex gap-8 text-sm font-medium text-gray-600">
-            <a href="#" className="hover:text-blue-600">About</a>
-            <a href="#" className="hover:text-blue-600">Chamber News</a>
-            <a href="#" className="hover:text-blue-600">Contact</a>
-          </div>
-        </div>
-        <p className="text-center text-gray-400 text-xs mt-10">© 2026 Textile Insights. All rights reserved.</p>
-      </footer>
     </div>
   );
 };

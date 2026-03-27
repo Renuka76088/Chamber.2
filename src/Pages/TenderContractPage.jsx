@@ -170,9 +170,7 @@ const TenderContractPage = () => {
         </div>
       </main>
 
-      <footer className="py-12 text-center border-t border-slate-100">
-        <p className="text-slate-400 text-xs font-bold uppercase tracking-widest">© 2026 HC Pareek | Textile Sector Procurement</p>
-      </footer>
+     
     </div>
   );
 };

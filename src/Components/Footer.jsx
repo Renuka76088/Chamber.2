@@ -48,7 +48,7 @@ const Footer = () => {
 
   {/* Quick Newsletter */}
   <div className="lg:col-span-7 bg-slate-900/50 p-6 rounded-[2rem] border border-slate-800">
-    <h4 className="text-xl font-bold text-white mb-1">Subscribe to our Circulars</h4>
+    <h4 className="text-xl font-bold text-white mb-1">Connect With Us</h4>
     <p className="text-sm text-slate-400 mb-4">Stay updated with the latest textile policies and trade enquiries.</p>
     <div className="flex flex-col sm:flex-row gap-2 bg-slate-950 p-1.5 rounded-2xl border border-slate-800">
       <input 

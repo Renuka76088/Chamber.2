@@ -146,9 +146,6 @@ const MediaGalleryPage = () => {
         </main>
       </div>
 
-      <footer className="py-12 border-t border-slate-100 text-center bg-white">
-        <p className="text-slate-400 text-xs font-bold uppercase tracking-[0.2em]">© 2026 HC Pareek | Digital Media & Insights Division</p>
-      </footer>
     </div>
   );
 };

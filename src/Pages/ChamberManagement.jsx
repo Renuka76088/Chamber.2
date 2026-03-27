@@ -14,7 +14,7 @@ import {
 const ChamberManagement = () => {
   const leaders = [
     {
-      name: "HC Pareek",
+      name: "HC Parekh",
       role: "Founder & Chief Mentor",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=400&auto=format&fit=crop",
       bio: "Textile industry veteran with 30+ years of expertise in global commerce."
@@ -146,12 +146,7 @@ const ChamberManagement = () => {
         </div>
       </section>
 
-      {/* --- Simple Footer --- */}
-      <footer className="py-12 border-t border-gray-100 text-center">
-        <p className="text-gray-400 text-sm uppercase tracking-[0.2em]">
-          © 2026 HC Pareek | Management Board
-        </p>
-      </footer>
+   
     </div>
   );
 };

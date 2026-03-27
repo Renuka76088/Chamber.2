@@ -123,10 +123,7 @@ const ContactUs = () => {
         </section>
       </main>
 
-      {/* --- Simple Footer --- */}
-      <footer className="bg-white border-t py-8 text-center">
-        <p className="text-gray-500 text-sm">© 2026 HC Pareek | Textile Industry & Chamber of Commerce Insights</p>
-      </footer>
+     
     </div>
   );
 };

@@ -11,44 +11,45 @@ import {
 } from 'lucide-react';
 
 const ChamberServices = () => {
-  const services = [
-    {
-      title: "Market Analysis",
-      description: "Textile industry ke daily trends aur market rates ki detailed report aur analysis.",
-      icon: <BarChart3 size={32} />,
-      color: "bg-blue-500"
-    },
-    {
-      title: "B2B Networking",
-      description: "Chamber ke through naye manufacturers aur wholesalers se judne ka direct platform.",
-      icon: <Network size={32} />,
-      color: "bg-indigo-600"
-    },
-    {
-      title: "Digital Cataloging",
-      description: "Aapke textile products ko online showcase karne ke liye modern digital solutions.",
-      icon: <Globe2 size={32} />,
-      color: "bg-blue-700"
-    },
-    {
-      title: "Trade Documentation",
-      description: "Import-export aur GST related paperwork mein chamber ki expert guidance.",
-      icon: <FileText size={32} />,
-      color: "bg-cyan-600"
-    },
-    {
-      title: "Quality Certification",
-      description: "Fabric quality aur standard testing ke liye authorized certification support.",
-      icon: <ShieldCheck size={32} />,
-      color: "bg-blue-800"
-    },
-    {
-      title: "Business Growth",
-      description: "Naye textile startups aur expansion projects ke liye financial aur strategic advice.",
-      icon: <Briefcase size={32} />,
-      color: "bg-indigo-500"
-    }
-  ];
+const services = [
+  {
+    title: "Market Analysis",
+    description: "Detailed reports and analysis of daily trends and market rates in the textile industry.",
+    icon: <BarChart3 size={32} />,
+    color: "bg-blue-500"
+  },
+  {
+    title: "B2B Networking",
+    description: "A direct platform to connect with new manufacturers and wholesalers through the chamber.",
+    icon: <Network size={32} />,
+    color: "bg-indigo-600"
+  },
+  {
+    title: "Digital Cataloging",
+    description: "Modern digital solutions to showcase your textile products online.",
+    icon: <Globe2 size={32} />,
+    color: "bg-blue-700"
+  },
+  {
+    title: "Trade Documentation",
+    description: "Expert guidance from the chamber for import-export and GST-related paperwork.",
+    icon: <FileText size={32} />,
+    color: "bg-cyan-600"
+  },
+  {
+    title: "Quality Certification",
+    description: "Authorized certification support for fabric quality and standard testing.",
+    icon: <ShieldCheck size={32} />,
+    color: "bg-blue-800"
+  },
+  {
+    title: "Business Growth",
+    description: "Financial and strategic advice for new textile startups and expansion projects.",
+    icon: <Briefcase size={32} />,
+    color: "bg-indigo-500"
+  }
+];
+
 
   return (
     <div className="min-h-screen bg-white font-sans text-slate-900">
@@ -108,7 +109,7 @@ const ChamberServices = () => {
           <div className="relative z-10">
             <h2 className="text-3xl md:text-5xl font-bold mb-6">Ready to grow your textile business?</h2>
             <p className="text-blue-100 text-lg mb-10 max-w-xl mx-auto opacity-90">
-              Join the HC Pareek Chamber network today and get access to exclusive industry resources.
+              Join the HC Parekh Chamber network today and get access to exclusive industry resources.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button className="bg-white text-blue-700 px-10 py-4 rounded-full font-bold hover:bg-blue-50 transition-colors shadow-xl">
@@ -125,10 +126,7 @@ const ChamberServices = () => {
         </div>
       </section>
 
-      {/* --- Simple Footer --- */}
-      <footer className="py-12 border-t border-gray-100 text-center">
-        <p className="text-gray-400 text-sm">© 2026 HC Pareek | Empowering Textile Communities</p>
-      </footer>
+    
     </div>
   );
 };

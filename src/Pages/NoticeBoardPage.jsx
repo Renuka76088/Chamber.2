@@ -129,9 +129,7 @@ const NoticeBoardPage = () => {
 
       </main>
 
-      <footer className="py-12 border-t border-slate-100 text-center">
-        <p className="text-slate-400 text-xs font-bold uppercase tracking-[0.3em]">HC Pareek | Information & Broadcast Division</p>
-      </footer>
+  
     </div>
   );
 };

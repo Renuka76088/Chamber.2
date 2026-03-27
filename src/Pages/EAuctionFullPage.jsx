@@ -178,19 +178,7 @@ const EAuctionFullPage = () => {
         </main>
       </div>
 
-      {/* --- Simple Professional Footer --- */}
-      <footer className="py-12 bg-white border-t border-slate-100 text-center">
-        <div className="max-w-6xl mx-auto px-6">
-          <p className="text-slate-400 text-xs font-bold uppercase tracking-[0.3em] mb-4">
-            HC Pareek | Textile Chamber of Commerce Insights
-          </p>
-          <div className="flex justify-center gap-6 text-slate-400 text-xs font-medium">
-            <a href="#" className="hover:text-blue-600 transition-colors">Privacy Policy</a>
-            <a href="#" className="hover:text-blue-600 transition-colors">T&C of Auction</a>
-            <a href="#" className="hover:text-blue-600 transition-colors">Help Desk</a>
-          </div>
-        </div>
-      </footer>
+
     </div>
   );
 };

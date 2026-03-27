@@ -131,9 +131,6 @@ const EQuotationForm = () => {
         </main>
       </div>
 
-      <footer className="py-12 text-center border-t border-slate-100 bg-white">
-        <p className="text-slate-400 text-xs font-bold uppercase tracking-widest">© 2026 HC Pareek | E-Quotation Management System</p>
-      </footer>
     </div>
   );
 };
