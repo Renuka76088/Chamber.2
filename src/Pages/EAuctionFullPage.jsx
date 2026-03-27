@@ -32,7 +32,7 @@ const EAuctionFullPage = () => {
                 <span className="text-xs font-bold uppercase tracking-widest">Premium Bidding Portal</span>
               </div>
               <h1 className="text-4xl md:text-6xl font-black text-white mb-6 tracking-tight">
-                E-Auction <span className="text-blue-500">Registration</span>
+                e-Auction <span className="text-blue-500">Registration</span>
               </h1>
               <p className="text-gray-400 text-lg max-w-2xl mx-auto leading-relaxed opacity-90">
                 Register to participate in exclusive textile stock auctions. 
