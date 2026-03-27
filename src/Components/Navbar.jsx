@@ -22,9 +22,9 @@ const dropdownItems = [
 const pagesList = [
   { name: 'Home', path: '/' },
   { name: 'About Us', path: '/about' },
+  { name: 'Services', path: '#', hasDropdown: true },
   { name: 'Blog', path: '/blog' },
   { name: 'Contact', path: '/contact' },
-  { name: 'Services', path: '#', hasDropdown: true },
 ];
 
 const Navbar = () => {
