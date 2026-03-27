@@ -74,7 +74,7 @@ const AboutUs = () => {
                <Globe2 className="text-blue-500" size={18} /> Global Export Support
             </div>
             <div className="flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-sm text-sm font-bold text-slate-700">
-               <Landmark className="text-blue-500" size={18} /> Surat Headquartered
+               <Landmark className="text-blue-500" size={18} /> BENGALURU, KA Headquartered
             </div>
             <div className="flex items-center gap-3 px-6 py-3 bg-white rounded-full shadow-sm text-sm font-bold text-slate-700">
                <Clock3 className="text-blue-500" size={18} /> Established 2001
@@ -142,7 +142,7 @@ const AboutUs = () => {
               </div>
               <div className="col-span-2 space-y-1 border-t border-slate-200 pt-6">
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Family Background</p>
-                <p className="text-lg font-bold text-slate-800">Father: Retd. From Dist. & Session Court, Surat</p>
+                <p className="text-lg font-bold text-slate-800">Father: Retd. From Dist. & Session Court, BENGALURU, KA</p>
               </div>
             </div>
             <div className="absolute -right-10 -bottom-10 opacity-5 group-hover:opacity-10 transition-opacity">

@@ -75,7 +75,7 @@ const ContactUs = () => {
 >
   {/* Interactive Map Frame - Fix for Black Background */}
   <div className="flex-1 min-h-[450px] rounded-[2.5rem] overflow-hidden border-8 border-white shadow-xl relative group bg-white">
-    {/* Real Google Maps Iframe - Focused on Surat Textile Hub (Hans Society Area) */}
+    {/* Real Google Maps Iframe - Focused on BENGALURU, KA Textile Hub (Hans Society Area) */}
     <iframe 
       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14876.101736733221!2d72.8524451688631!3d21.230815998124978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959f763c3c383d7%3A0xc711ee1f81921331!2sTextile%20Hub!5e0!3m2!1sen!2sin!4v1711200000000!5m2!1sen!2sin"
       width="100%" 
@@ -90,7 +90,7 @@ const ContactUs = () => {
     {/* Creative Location Badge */}
     <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full shadow-lg flex items-center gap-2 text-[12px] font-bold text-blue-700 border border-blue-50 z-10">
       <MapPin size={16} className="animate-pulse" /> 
-      Textile Hub, Surat, BENGALURU, KA
+      Textile Hub, BENGALURU, KA, BENGALURU, KA
     </div>
 
     {/* Decorative Overlay */}
