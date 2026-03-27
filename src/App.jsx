@@ -34,15 +34,15 @@ function App() {
 <Routes>
 
 <Route path='/' element={<Landing/>}/>
-<Route path='/trade-enquiry-(e-form)' element={<TradeEnquiry/>}/>
+{/* <Route path='/trade-enquiry' element={<TradeEnquiry/>}/> */}
 <Route path='/about' element={<AboutUs/>}/>
 <Route path='/blog' element={< BlogPage/>}/>
 <Route path='/contact' element={<  ContactUs/>}/>
 <Route path='/our-chamber-service' element={<  ChamberServices/>}/>
 <Route path='/our-chamber-management' element={<  ChamberManagement/>}/>
-<Route path='/trade-enquiry-e-form-' element={<  TradeEnquiryForm/>}/>
-<Route path='/e-quotation-e-form-' element={<  EQuotationForm/>}/>
-<Route path='/e-auction-e-form-' element={<  EAuctionFullPage/>}/>
+<Route path='/trade-enquiry' element={<  TradeEnquiryForm/>}/>
+<Route path='/e-quotation' element={<  EQuotationForm/>}/>
+<Route path='/e-auction' element={<  EAuctionFullPage/>}/>
 <Route path='/tender-contract' element={<  TenderContractPage/>}/>
 <Route path='/career-page' element={<   CareerPage/>}/>
 <Route path='/circular' element={<   CircularsPage/>}/>

@@ -7,9 +7,9 @@ import logo from '../assets/logo.png'
 const dropdownItems = [
   { name: 'Chamber Services', path: '/our-chamber-service' },
   { name: 'Management', path: '/our-chamber-management' },
-  { name: 'Trade Enquiry', path: '/trade-enquiry-e-form-' },
-  { name: 'e-Quotation', path: '/e-quotation-e-form-' },
-  { name: 'e-Auction', path: '/e-auction-e-form-' },
+  { name: 'Trade Enquiry', path: '/trade-enquiry' },
+  { name: 'e-Quotation', path: '/e-quotation' },
+  { name: 'e-Auction', path: '/e-auction' },
   { name: 'Tenders & Contracts', path: '/tender-contract' },
   { name: 'Careers', path: '/career-page' },
   { name: 'Circulars', path: '/circular' },
@@ -138,7 +138,7 @@ const Navbar = () => {
       ))}
       <button className="bg-slate-950 text-white px-6 py-2.5 rounded-full text-[11px] font-bold hover:bg-blue-600 transition-all shadow-lg shadow-slate-200">
        
-       <Link to='/trade-enquiry-e-form-'>
+       <Link to='/trade-enquiry'>
         Get a quote  
        </Link>
      

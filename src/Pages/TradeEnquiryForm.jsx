@@ -29,7 +29,7 @@ const TradeEnquiryForm = () => {
             Apply for <span className="text-blue-500">Membership</span>
           </h1>
           <p className="text-gray-400 text-lg opacity-80">
-            Join the Chamber of Textile. Fill out the e-form below to begin your application.
+            Join the Chamber of Textile. Fill out the Form below to begin your application.
           </p>
         </div>
       </section>

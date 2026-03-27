@@ -40,13 +40,13 @@ function Pin({ loc, index, active, onClick }) {
       style={{ opacity: visible ? 1 : 0, cursor: "pointer" }}
     >
       {/* 🔴 Blink dot */}
-   <circle cx={loc.x} cy={loc.y} r="6" fill="#d32f2f">
+   <circle cx={loc.x} cy={loc.y} r="6" fill="#2563EB">
 
         <animate attributeName="opacity" values="1;0.3;1" dur="1s" repeatCount="indefinite" />
       </circle>
 
       {/* Glow */}
-      <circle cx={loc.x} cy={loc.y} r="10" fill="none" stroke="#d32f2f">
+      <circle cx={loc.x} cy={loc.y} r="10" fill="none" stroke="#2563EB">
         <animate attributeName="r" values="10;22" dur="1.5s" repeatCount="indefinite" />
         <animate attributeName="opacity" values="0.7;0" dur="1.5s" repeatCount="indefinite" />
       </circle>
