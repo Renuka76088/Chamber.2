@@ -30,7 +30,7 @@ const Footer = () => {
     </Link>
     
     <p className="text-slate-400 max-w-sm leading-relaxed mt-2">
-      Empowering the textile industry of Gujarat since 2001. Weaving connections, fostering innovation, and driving global trade excellence.
+      Empowering the textile industry of BENGALURU, KA since 2007. Weaving connections, fostering innovation, and driving global trade excellence.
     </p>
     
     <div className="flex gap-4 pt-2">
@@ -100,7 +100,7 @@ const Footer = () => {
             <div className="space-y-4 text-sm text-slate-400">
               <p className="flex items-start gap-3">
                 <MapPin size={20} className="text-blue-500 shrink-0" />
-                Textile Hub, Hans Society, Surat, Gujarat - 395006
+                 BENGALURU, KA
               </p>
               <p className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-500 shrink-0" />

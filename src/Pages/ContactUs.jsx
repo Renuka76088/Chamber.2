@@ -29,7 +29,7 @@ const ContactUs = () => {
                   </div>
                   <div>
                     <p className="font-bold text-slate-800">Our Location</p>
-                    <p className="text-slate-600 text-sm">Textile Chamber Building, Gujarat, India</p>
+                    <p className="text-slate-600 text-sm">BENGALURU, KA, India</p>
                   </div>
                 </div>
 
@@ -101,23 +101,23 @@ const ContactUs = () => {
           </div>
         </div>
 
-        {/* --- Map Section (Gujarat Focus) --- */}
+        {/* --- Map Section (BENGALURU, KA Focus) --- */}
         <section className="mt-16">
           <div className="flex items-center gap-3 mb-6">
             <div className="h-8 w-1.5 bg-blue-600 rounded-full"></div>
-            <h2 className="text-2xl font-bold text-slate-800">Our Presence in Gujarat</h2>
+            <h2 className="text-2xl font-bold text-slate-800">Our Presence in BENGALURU, KA</h2>
           </div>
           
           <div className="w-full h-[450px] rounded-[32px] overflow-hidden shadow-2xl border-4 border-white">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.9482851458!2d72.8277271!3d21.1942007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e6720f78b8b%3A0xc3124f9f783109!2sGujarat%20Chamber%20of%20Commerce%20%26%20Industry!5e0!3m2!1sen!2sin!4v1711220000000!5m2!1sen!2sin" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3718.9482851458!2d72.8277271!3d21.1942007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04e6720f78b8b%3A0xc3124f9f783109!2sBENGALURU, KA%20Chamber%20of%20Commerce%20%26%20Industry!5e0!3m2!1sen!2sin!4v1711220000000!5m2!1sen!2sin" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Gujarat Textile Chamber Map"
+              title="BENGALURU, KA Textile Chamber Map"
             ></iframe>
           </div>
         </section>

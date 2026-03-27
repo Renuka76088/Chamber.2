@@ -54,15 +54,15 @@ const AboutUs = () => {
               <div className="grid grid-cols-2 gap-y-4 text-sm">
                 <div>
                   <p className="text-slate-400 uppercase tracking-wider text-[10px] font-bold">Birth Place</p>
-                  <p className="font-semibold text-slate-700 flex items-center gap-1"><MapPin size={14} /> Surat, Gujarat</p>
+                  <p className="font-semibold text-slate-700 flex items-center gap-1"><MapPin size={14} /> BENGALURU, KA</p>
                 </div>
                 <div>
                   <p className="text-slate-400 uppercase tracking-wider text-[10px] font-bold">Mother Tongue</p>
-                  <p className="font-semibold text-slate-700 flex items-center gap-1"><MessageCircle size={14} /> Gujarati</p>
+                  <p className="font-semibold text-slate-700 flex items-center gap-1"><MessageCircle size={14} /> BENGALURU, KAi</p>
                 </div>
                 <div className="col-span-2 pt-2 border-t border-slate-50">
                   <p className="text-slate-400 uppercase tracking-wider text-[10px] font-bold">Family Background</p>
-                  <p className="font-medium text-slate-600 italic">Father: Retd. From the Dist. & Session Court, Surat, Gujarat</p>
+                  <p className="font-medium text-slate-600 italic">BENGALURU, KA</p>
                 </div>
               </div>
             </div>

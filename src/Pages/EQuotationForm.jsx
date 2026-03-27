@@ -29,7 +29,7 @@ const EQuotationForm = () => {
                 <span className="text-xs font-bold uppercase tracking-widest">Instant Estimate</span>
               </div>
               <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6">
-                E-Quotation <span className="text-blue-500">Portal</span>
+                e-Quotation <span className="text-blue-500">Portal</span>
               </h1>
               <p className="text-gray-400 text-lg max-w-xl mx-auto opacity-90">
               "Get the best rates and instant estimates for all your textile requirements. Request a quote today for premium quality at competitive prices."

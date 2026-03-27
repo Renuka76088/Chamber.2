@@ -131,13 +131,13 @@ const AboutUs = () => {
               <div className="space-y-1">
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Birth Place</p>
                 <p className="text-lg font-bold text-slate-800 flex items-center gap-2">
-                  <MapPin size={16} className="text-blue-500" /> Surat, Gujarat
+                  <MapPin size={16} className="text-blue-500" />BENGALURU, KA
                 </p>
               </div>
               <div className="space-y-1">
                 <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Mother Tongue</p>
                 <p className="text-lg font-bold text-slate-800 flex items-center gap-2">
-                  <Languages size={16} className="text-blue-500" /> Gujarati
+                  <Languages size={16} className="text-blue-500" /> BENGALURU, KAi
                 </p>
               </div>
               <div className="col-span-2 space-y-1 border-t border-slate-200 pt-6">

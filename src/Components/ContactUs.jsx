@@ -90,7 +90,7 @@ const ContactUs = () => {
     {/* Creative Location Badge */}
     <div className="absolute top-6 left-6 bg-white/95 backdrop-blur-md px-5 py-2.5 rounded-full shadow-lg flex items-center gap-2 text-[12px] font-bold text-blue-700 border border-blue-50 z-10">
       <MapPin size={16} className="animate-pulse" /> 
-      Textile Hub, Surat, Gujarat
+      Textile Hub, Surat, BENGALURU, KA
     </div>
 
     {/* Decorative Overlay */}
