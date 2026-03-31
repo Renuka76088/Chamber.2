@@ -5,8 +5,8 @@ const locations = [
   { id: 2, name: "Parekh Silk", city: "BENGALURU, KA", short: "Silk", x: 330, y: 550 },
   { id: 3, name: "Parekh Rayon", city: "Raipur", short: "Rayon", x: 488, y: 505 },
   { id: 4, name: "Parekh Linen", city: "Kolkata", short: "Linen", x: 625, y: 515 },
-  { id: 5, name: "Parekh e-Trade Market (Textile) ", city: "Hyderabad", short: "e-Trade", x: 450, y: 635 },
-  { id: 6, name: "Parekh Chamber of Textile", city: "Bangalore", short: "Chamber", x: 405, y: 755 },
+  { id: 5, name: "Parekh e-Trade Market (Textile) ", city: "Hyderabad", short: "e-Trade", x: 465, y: 615 },
+  { id: 6, name: "Parekh Chamber of Textile", city: "Bangalore", short: "Chamber", x: 405, y: 715 },
   { id: 7, name: "Parekh Southern Polyfabrics", city: "Chennai", short: "Southern", x: 475, y: 755 },
 ];
 
